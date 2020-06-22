@@ -1,30 +1,13 @@
-/*
-Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
-archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
-*/
 
-/* Ejercicio 1: Centrar el texto en un span */
-
-/* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
     display: block;
-    justify-content: center;
-    align-items: center; 
+    text-align: center; 
     background: red;
 }
 
-
-/* Ejercicio 2: Posicionar el header */
-
-/* Acá va tu código */
 #ejercicioDos {
     display: none;
 }
-
-
-/* Ejercicio 3: */
-
-/* Acá va tu código */
 
 #ejercicioTres{
 	position: relative;
@@ -32,18 +15,27 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 	top: 100px;
 }
 
-/* Ejercicio 4: */
-
-/* Acá va tu código */
 #ejercicioCuatro{
 	position: fixed;
 	top: 0;
-	left: 10px;
+	left: 0;
 }
 
 
-/* Ejercicio 5: */
+#ejercicioCinco{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-/* Acá va tu código */
 
-/* Ejercicio 6. */
+#ejercicioCinco{
+  flex-direction: row-reverse;
+}
+
+
+
+#ejercicioSiete{
+  align-items: center;
+  flex-direction:column-reverse;
+}
